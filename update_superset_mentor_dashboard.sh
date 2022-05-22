@@ -11,4 +11,4 @@ export https_proxy=http://webproxy.eqiad.wmnet:8080
 
 jupyter nbconvert --to html --execute 'mentor-dashboard-analytics.ipynb'
 
-hdfs dfs -chmod -R u+rx /user/urbanecm/growth_data
+hdfs dfs -chmod -R o+rx /user/urbanecm/growth_data

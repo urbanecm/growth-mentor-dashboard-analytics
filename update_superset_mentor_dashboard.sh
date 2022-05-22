@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd '/home/urbanecm/Documents/Growth/Mentor dashboard/analytics'
+cd '/home/urbanecm/Documents/Growth/mentorship/analysis'
 
 source conda-activate-stacked 2021-04-07T23.21.00_urbanecm
 export PATH=/usr/local/bin:$PATH

@@ -10,6 +10,7 @@ export http_proxy=http://webproxy.eqiad.wmnet:8080
 export https_proxy=http://webproxy.eqiad.wmnet:8080
 
 jupyter nbconvert --to html --execute 'mentor-dashboard-analytics.ipynb'
+jupyter nbconvert --to html --execute 'update_mentor_lists.ipynb'
 jupyter nbconvert --to html --execute 'mentorship-optout-analytics.ipynb'
 
 hdfs dfs -chmod -R o+rx /user/urbanecm/growth_data
